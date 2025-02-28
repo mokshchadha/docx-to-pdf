@@ -5,7 +5,7 @@ Convert DOCX files to PDF using Mammoth and Puppeteer.
 ## Installation
 
 ```sh
-npm install docx-to-pdf
+npm install docx-pdf-converter
 ```
 
 
@@ -14,7 +14,7 @@ npm install docx-to-pdf
 ```js
 
 const fs = require('fs')
-const { convertDocxToPdf } = require('docx-to-pdf')
+const { convertDocxToPdf } = require('docx-pdf-converter')
 
 async function convert() {
   const docxBuffer = fs.readFileSync('path/to/input.docx')
