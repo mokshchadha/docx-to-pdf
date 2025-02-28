@@ -1,0 +1,22 @@
+{
+  "name": "docx-to-pdf",
+  "version": "1.0.0",
+  "description": "Convert DOCX to PDF using Mammoth and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "docx",
+    "pdf",
+    "converter",
+    "mammoth",
+    "puppeteer"
+  ],
+  "author": "Moksh Chadha",
+  "license": "MIT",
+  "dependencies": {
+    "mammoth": "^1.9.0",
+    "puppeteer": "^24.3.0"
+  }
+}
