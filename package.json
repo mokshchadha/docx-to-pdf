@@ -1,5 +1,5 @@
 {
-  "name": "docx-to-pdf",
+  "name": "@mrsalvation/docx-to-pdf",
   "version": "1.0.0",
   "description": "Convert DOCX to PDF using Mammoth and Puppeteer",
   "main": "index.js",
@@ -18,5 +18,14 @@
   "dependencies": {
     "mammoth": "~1.9.0",
     "puppeteer": "~24.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokshchadha/docx-to-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mokshchadha/docx-to-pdf/issues"
+  },
+  "homepage": "https://github.com/mokshchadha/docx-to-pdf#readme"
 }
