@@ -1,6 +1,6 @@
 {
   "name": "docx-pdf-converter",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A Node.js tool to convert DOCX files to PDF using Mammoth for accurate Word document parsing and Puppeteer for high-quality PDF generation. Ideal for document automation and batch processing.",
   "main": "index.js",
   "scripts": {
