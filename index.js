@@ -85,14 +85,16 @@ async function convertDocxToPdf(fileBuffer, originalFilename, options = {}, form
     }
     
     // Create CSS for formatting
+    // BELOW style was removed because of some reason
+    // body {
+    //   font-family: 'Arial', 'Helvetica', sans-serif;
+    //   line-height: 1.5;
+    //   margin: 0;
+    //   padding: 0;
+    //   counter-reset: page;
+    // }
     const css = `
-      body {
-        font-family: 'Arial', 'Helvetica', sans-serif;
-        line-height: 1.5;
-        margin: 0;
-        padding: 0;
-        counter-reset: page;
-      }
+     
       @page {
         size: ${finalPageConfig.format};
         margin: ${finalPageConfig.margin.top} ${finalPageConfig.margin.right} ${finalPageConfig.margin.bottom} ${finalPageConfig.margin.left};
